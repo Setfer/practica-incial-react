@@ -1,0 +1,31 @@
+button {
+  font-size: 25px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: rgb(252, 52, 52);
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+button.restar {
+  background-color: rgb(149, 174, 255);
+}
+button.resetear {
+  background-color: rgba(255, 236, 149, 0.568);
+}
+
+.app {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100svh;
+}
+
+.app > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
